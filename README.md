@@ -1,4 +1,3 @@
-# TC_mediated_diffusion
 Two_State_model/
 │
 ├── Two_state_Gs.py
@@ -22,7 +21,7 @@ Simulation/
 │
 ├── analyse_function_raw_di.py
 ├── analyse_function_distri0.py
-│   └── Analyze simulation results (time series, distribution functions, etc.).
+│   └── Analyze simulation results.
 │
 ├── net/
 │   └── Store network configuration files.
