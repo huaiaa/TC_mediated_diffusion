@@ -1,7 +1,5 @@
-# Project: Two-State Diffusion & SCF Simulations
-
 ## Overview
-This repository contains code for (1) numerical calculation of displacement probability density functions (DPDF) for a two-state diffusion model, (2) Brownian Dynamics (BD) simulations of particles interacting with networks, and (3) Self-Consistent Field (SCF) simulations for polymer networks (with and without nanoparticles/dynamic bonds).
+This repository contains code for (1) numerical calculation of displacement probability density functions (DPDF) for a two-state diffusion model, (2) Brownian Dynamics (BD) simulations, and (3) Self-Consistent Field (SCF) calculations.
 
 ---
 
@@ -16,7 +14,7 @@ This repository contains code for (1) numerical calculation of displacement prob
   Batch execution of **Brownian Dynamics (BD)** simulations.
 
 - `sys_init_exist_di.py`, `sys_init_di.py`  
-  Initialize simulation systems, including **particle** and **network configurations**.
+  Initialize simulation systems.
 
 - `sim_reaction_di.py`  
   Main **Brownian Dynamics simulation** program.
@@ -43,10 +41,10 @@ This repository contains code for (1) numerical calculation of displacement prob
   **SCF kernel** (CUDA source and executable) for **networks containing nanoparticles and dynamic bonds**.
 
 - `run_one_pos.py`  
-  Run SCF simulation for a **single nanoparticle position**.
+  Run SCF calculation for a **single nanoparticle position**.
 
 - `run_over_space.py`  
-  Run SCF simulations for **multiple nanoparticle positions**, by invoking `run_one_pos.py`.
+  Run SCF calculations for **multiple nanoparticle positions**, by calling `run_one_pos.py`.
 
 ---
 
